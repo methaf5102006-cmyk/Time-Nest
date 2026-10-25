@@ -1,0 +1,29 @@
+﻿.page-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
+
+.dept-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+.dept-tab {
+  padding: 9px 20px; border: 2px solid var(--navy); background: #fff; color: var(--navy);
+  border-radius: 8px; cursor: pointer; font-weight: bold;
+}
+.dept-tab.active { background: var(--navy); color: #fff; }
+
+.export-area { width: max-content; min-width: 100%; background: #fff; padding: 8px; }
+.export-title { font-size: 18px; font-weight: bold; color: var(--navy); padding: 4px 4px 10px; }
+
+.btn-small { padding: 4px 10px; font-size: 12px; }
+.btn-green { background: var(--green); }
+
+.manage-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin-top: 16px; }
+.manage-row {
+  display: flex; justify-content: space-between; align-items: center; gap: 8px;
+  padding: 5px 0; border-bottom: 1px solid var(--line); font-size: 13px;
+}
+
+.share-modal { width: 460px; }
+.share-option { border: 1px solid var(--line); border-radius: 8px; padding: 12px; margin-bottom: 10px; }
+.share-option.recommended { border-color: #86efac; background: #f0fdf4; }
+.share-option h4 { margin: 0 0 4px; font-size: 14px; color: var(--navy); }
+.share-option p { margin: 0 0 8px; font-size: 12px; color: #64748b; }
+.share-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.share-option select { width: 100%; padding: 7px; border: 1px solid #cbd5e1; border-radius: 6px; margin-bottom: 8px; }
+.share-status { background: #e0f2fe; border: 1px solid #7dd3fc; color: #075985; padding: 8px; border-radius: 6px; font-size: 13px; margin-bottom: 10px; }

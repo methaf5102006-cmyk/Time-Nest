@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+dist/
+build/
+*.bak
+.DS_Store
+client copy/
+*.backup.jsx
+share.txt
